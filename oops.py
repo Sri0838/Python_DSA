@@ -45,7 +45,7 @@ class Animal:
     print("Animal Sound")
 class Dog(Animal):
     def sound(self):
-        print("Woof")
+        print("Bark")
 class Cat(Animal):
     def sound(self):
         print("Meow")

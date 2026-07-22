@@ -1,6 +1,6 @@
 print("sruthi\nsruthi sri")
 print("\\tcurrent\\new\\folder")
-# / is escape character
+# \ is escape character
 print(r"\tcurrent\new\folder")
 
 #write a program to find odd and even with function:

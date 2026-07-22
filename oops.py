@@ -1,4 +1,4 @@
-'''#4 pillars of oops
+#4 pillars of oops
 # Encapsulation:
 #access modifiers
 class A:
@@ -48,4 +48,4 @@ class Dog(Animal):
         print("Woof")
 class Cat(Animal):
     def sound(self):
-        print("Meow")'''
+        print("Meow")

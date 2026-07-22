@@ -1,4 +1,4 @@
-'''x = int(input("enter a number:"))
+x = int(input("enter a number:"))
 y = int(input("enter a number:"))
 print(x/y)
 
@@ -50,7 +50,7 @@ while True:
         print(a)
         break
     except ValueError as e:
-        print(e)'''
+        print(e)
 
 #task2
 ## handle index error while accessing list element if it is out of range handle it

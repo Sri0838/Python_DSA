@@ -1,6 +1,6 @@
-'''print("sruthi\nsruthi sri")
+print("sruthi\nsruthi sri")
 print("\\tcurrent\\new\\folder")
-# / is escape character
+# \ is escape character
 print(r"\tcurrent\new\folder")
 
 #write a program to find odd and even with function:
@@ -50,8 +50,8 @@ print(len(s))
  #Abstraction:
  #Inheritance:
  #polymorphism:
- X = 10
- X = "data"
+x = 10
+x = "data"
  
 # take a string as input and
 # print it back by removing the first and last character of the input string
@@ -69,5 +69,5 @@ n = int(input())
 sum = 0
 for i in range(1,n+1):
     sum += i
-print(sum)'''
+print(sum)
   

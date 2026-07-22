@@ -1,4 +1,4 @@
-'''print("sruthi\nsruthi sri")
+print("sruthi\nsruthi sri")
 print("\\tcurrent\\new\\folder")
 # / is escape character
 print(r"\tcurrent\new\folder")
@@ -27,9 +27,9 @@ dict = {
 dict["name"] = "sruthi sri"
 dict.update({"courses": ["python", "java", "machine learning"]})
 print(dict)
-#print(dict.keys())
-#print(dict.values())
-#print(dict.items())
+print(dict.keys())
+print(dict.values())
+print(dict.items())
 
 def count(*args):
     print(type(args))
@@ -69,5 +69,5 @@ n = int(input())
 sum = 0
 for i in range(1,n+1):
     sum += i
-print(sum)'''
+print(sum)
   

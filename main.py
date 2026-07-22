@@ -27,9 +27,9 @@ dict = {
 dict["name"] = "sruthi sri"
 dict.update({"courses": ["python", "java", "machine learning"]})
 print(dict)
-#print(dict.keys())
-#print(dict.values())
-#print(dict.items())
+print(dict.keys())
+print(dict.values())
+print(dict.items())
 
 def count(*args):
     print(type(args))

@@ -4,9 +4,9 @@
 class A:
     def __init__(self,name,age,gender):
 #constructor
-        self.__name=name#private variabel can be accesed inside of same class which defines with__
-        self._age=age#protected variable can be accessed inside if same class and its child class which defines with_
-        self.gender=gender#public variable can be accessed inside of same class and outside of all classes which defines with no prefix
+        self.__name=name     #private variabel can be accesed inside of same class which defines with__
+        self._age=age        #protected variable can be accessed inside if same class and its child class which defines with_
+        self.gender=gender   #public variable can be accessed inside of same class and outside of all classes which defines with no prefix
     def display(self):
         print(self.__name)
         print(self._age)
@@ -45,7 +45,7 @@ class Animal:
     print("Animal Sound")
 class Dog(Animal):
     def sound(self):
-        print("Woof")
+        print("Bark")
 class Cat(Animal):
     def sound(self):
         print("Meow")
